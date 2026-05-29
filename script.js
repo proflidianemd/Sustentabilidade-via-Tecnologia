@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 5000);
     });
 
-    // ==========================================
+    // 
     // 5. CAIXA INTERATIVA DE COMENTÁRIOS DO LEITOR
     // ==========================================
     const formComentario = document.getElementById('form-comentario');

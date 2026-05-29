@@ -1,10 +1,10 @@
-/* ==========================================================================
-   VARIÁVEIS GLOBAIS (Customização de Paleta, Tipografia e Efeitos)
-   ========================================================================== */
+/* 
+   VARIÁVEIS GLOBAIS 
+    */
 :root {
-    /* Paleta Solicitada */
+    /* Paleta  */
     --cor-azul-deep: #0A192F;
-    --cor-azul-metalico: #172A45;
+    --cor-azul-metalico: #347fe9;
     --cor-azul-celeste: #3066BE;
     --cor-verde-tech: #00E676;
     --cor-amarelo: #FFEA00;
@@ -12,7 +12,7 @@
     --cor-preto: #020C1B;
     --cor-branco: #FFFFFF;
     --cor-cinza-claro: #F4F6F9;
-    --cor-texto-mutado: #8892B0;
+    --cor-texto-mutado: #eb1d73;
     
     /* Configurações Globais Ajustáveis */
     --fonte-principal: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
@@ -71,9 +71,9 @@ body {
     padding: 0 24px;
 }
 
-/* ==========================================================================
+/* 
    CAIXA FLUTUANTE DE ACESSIBILIDADE
-   ========================================================================== */
+    */
 .acessibilidade-container {
     position: fixed;
     top: 50%;
@@ -118,9 +118,9 @@ body {
     cursor: not-allowed;
 }
 
-/* ==========================================================================
+/* 
    HEADER & NAVBAR
-   ========================================================================== */
+    */
 .header {
     background-color: rgba(10, 25, 47, 0.85);
     backdrop-filter: blur(12px);
@@ -177,9 +177,9 @@ body {
 .nav-link:hover { color: var(--cor-verde-tech); }
 .nav-link:hover::after { width: 100%; }
 
-/* ==========================================================================
+/* 
    HERO SECTION
-   ========================================================================== */
+   */
 .hero {
     padding: clamp(60px, 10vh, 120px) 0;
     background: radial-gradient(circle at 90% 10%, rgba(0, 230, 118, 0.08), transparent 40%);
@@ -245,9 +245,9 @@ body {
     transform: translateY(-2px);
 }
 
-/* ==========================================================================
-   ESTILIZAÇÃO PADRÃO DAS IMAGENS (REQUISITOS RESTRITOS)
-   ========================================================================== */
+/* 
+   ESTILIZAÇÃO PADRÃO DAS IMAGENS 
+    */
 .imagem {
     width: 100%;
     overflow: hidden;
